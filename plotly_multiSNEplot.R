@@ -37,6 +37,8 @@ df_6 <- data.frame('x6'=msne6x, 'y6' = msne6y)
 
 final_df <- cbind(df_1, df_2, df_3, df_4, df_5, df_6, labels = factor(adBrain_labels))
 
+interval <- 1/14
+
 colors <- list(
   c(0, 'rgb(248, 118, 109)'),
   c(interval, 'rgb(229,135,0)'),
